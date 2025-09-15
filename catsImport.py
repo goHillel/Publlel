@@ -5,9 +5,9 @@ import time
 
 # 1. List of image URLs (could be GitHub raw URLs or any public URL)
 image_urls = [
-    "https://github.com/goHillel/GitLLel/blob/main/Funz/CatsProject/cat1.jpeg",
-    "https://github.com/goHillel/GitLLel/blob/main/Funz/CatsProject/cat2.jpeg",
-    "https://github.com/goHillel/GitLLel/blob/main/Funz/CatsProject/cat3.jpeg"
+    "https://github.com/goHillel/Publlel/blob/main/cat1.jpeg",
+    "https://github.com/goHillel/Publlel/blob/main/cat2.jpeg",
+    "https://github.com/goHillel/Publlel/blob/main/cat3.jpeg"
     # add more here
 ]
 
