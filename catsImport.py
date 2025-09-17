@@ -2,6 +2,7 @@ import requests
 import os
 import pygame
 import time
+import tempfile
 
 # 1. List of image URLs (could be GitHub raw URLs or any public URL)
 image_urls = [
@@ -12,7 +13,7 @@ image_urls = [
 ]
 
 # 2. Local folder to save images
-folder = "images"
+folder = os.path.join(tempfile.gettempdir(), "CatSlideshow")
 os.makedirs(folder, exist_ok=True)
 
 # 3. Download images
